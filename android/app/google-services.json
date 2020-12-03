@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "278707844009",
+    "firebase_url": "https://tjerpmobile.firebaseio.com",
+    "project_id": "tjerpmobile",
+    "storage_bucket": "tjerpmobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278707844009:android:0a0a5089eaf15de4b00ab8",
+        "android_client_info": {
+          "package_name": "com.tj.erp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "278707844009-9uqjglnign36ajtfajitm8onjbm23j3o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAN9MX9lYZuAMjvErfiCbd07guslu0aslo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "278707844009-9uqjglnign36ajtfajitm8onjbm23j3o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
