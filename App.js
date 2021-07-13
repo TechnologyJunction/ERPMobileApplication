@@ -19,6 +19,9 @@ import {
 import Loader from './app/Loader';
 
 let userID = ''
+const INJECTED_JAVASCRIPT = `(function() {
+  const meta = document.createElement('meta'); meta.setAttribute('content', 'width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no'); meta.setAttribute('name', 'viewport'); document.getElementsByTagName('head')[0].appendChild(meta);
+})();`;
 
 export default class App extends Component {
 
@@ -123,6 +126,10 @@ export default class App extends Component {
               }}
               javaScriptEnabled={true}
               source={{ uri: this.state.lastURL }}
+
+              injectedJavaScript={INJECTED_JAVASCRIPT}
+              onMessage={() => { }}
+
               onNavigationStateChange={(webViewState) => {
 
                 // this.webView.canGoBack = navState.canGoBack;
@@ -218,4 +225,4 @@ export default class App extends Component {
     })
   }
 
-}  
+}
